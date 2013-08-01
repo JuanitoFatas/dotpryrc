@@ -22,8 +22,8 @@ ___pry_gems.___require_gems
 ## Enable Pry's show-method in Ruby 1.8.7
 # https://github.com/pry/pry/wiki/FAQ#how-can-i-use-show-method-with-ruby-187
 if RUBY_VERSION == "1.8.7"
-safe_require 'ruby18_source_location', "Install this gem to enable Pry's show-method"
-warn 'Ruby 1.8.7 is retired now, please consider upgrade to newer version of Ruby.'
+  safe_require 'ruby18_source_location', "Install this gem to enable Pry's show-method"
+  warn 'Ruby 1.8.7 is retired now, please consider upgrade to newer version of Ruby.'
 end
 
 # ==============================
@@ -46,8 +46,8 @@ end
 # ==============================
 
 if RUBY_REVISION < 41671
-print ___.colorize "YOUR RUBY #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} HAS A VULNERABILITY IN SSL CLIENT, PLEASE CONSIDER UPGRADE TO LATEST VERSION. ", 31
-print ___.colorize "MORE INFORMATION: http://goo.gl/dAfuH\n", 31
+  print ___.colorize "YOUR RUBY #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} HAS A VULNERABILITY IN SSL CLIENT, PLEASE CONSIDER UPGRADE TO LATEST VERSION. ", 31
+  print ___.colorize "MORE INFORMATION: http://goo.gl/dAfuH\n", 31
 end
 
 # ==============================
