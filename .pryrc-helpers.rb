@@ -36,7 +36,7 @@ module PryrcHelpers
      "See you next hack!",
      "Glad you hack Ruby with Pry!",
      "We'll take a rainhack!",
-     "That was a good hack",
+     "That was a good hack.",
      "Gone with Ruby..."
     ].sample
   end
