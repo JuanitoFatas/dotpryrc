@@ -235,7 +235,7 @@ end
 # ==============================
 Pry.active_sessions = 0
 
-before = Pry.config.hooks.add_hook(:before_session, :welcome) do
+Pry.config.hooks.add_hook(:before_session, :welcome) do
     if Pry.active_sessions.zero?
       puts "Hello #{___.user}! I'm Pry #{Pry::VERSION}."
       puts "I'm Loading Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} and everything else for you:"

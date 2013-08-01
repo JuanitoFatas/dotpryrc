@@ -6,7 +6,7 @@
 
 ## What is .pryrc?
 
-Pry startup file, like `.bashrc`, please refer to [The .pryrc file](https://github.com/pry/pry/wiki/Pry-rc)
+Pry startup file, more information [The .pryrc file](https://github.com/pry/pry/wiki/Pry-rc)
 
 ## What's inside? (Bold is highlight)
 
