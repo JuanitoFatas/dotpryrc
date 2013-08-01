@@ -25,7 +25,7 @@ module PryrcHelpers
       "#{user} this could be the start of a beautiful program.",
       "Scientifically-proven optimal words of hackerish encouragement.",
       "Happy Hacking!",
-      "Oh wow. Oh wow. Oh wow. You're hacking with Ruby now!"
+      "Oh wow. Oh wow. Oh wow. You're hacking with Pry now!"
     ].sample
   end
 
