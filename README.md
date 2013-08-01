@@ -41,4 +41,6 @@ That's all!
 
 ## Have fun! ❤ ❤ ❤
 
+![Pry welcome you with a nice message!](http://git.io/mjV0og)
+
 If you like this, please drop me a tweet to [@Juanito Fatas](https://twitter.com/JuanitoFatas). Glad to hear from you soon.
