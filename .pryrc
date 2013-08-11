@@ -107,6 +107,15 @@ if defined? AwesomePrint
     Gem::Specification.reset
     load 'rubygems/custom_require.rb'
   end
+
+  ## awesome_print config for Minitest.
+  if defined? Minitest
+    module Minitest::Assertions
+      def mu_pp(obj)
+        obj.awesome_inspect
+      end
+    end
+  end
 end # End of AwesomePrint
 
 ### End of Vendor Stuff
