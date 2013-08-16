@@ -43,4 +43,4 @@ That's all!
 
 ![Pry welcome you with a nice message!](https://raw.github.com/JuanitoFatas/Foto/d67f3bdffeedc512f50a11e3370745c23baed38e/dotpryrc/in-action.gif)
 
-If you like this, please drop me a tweet to [@Juanito Fatas](https://twitter.com/JuanitoFatas). Glad to hear from you soon.
+If you like this, please drop me a tweet to [@JuanitoFatas](https://twitter.com/JuanitoFatas). Glad to hear from you soon.

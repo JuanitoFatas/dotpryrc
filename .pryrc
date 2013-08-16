@@ -14,7 +14,7 @@ ___ = PryrcHelpers
 ___daily_gems  = %w[benchmark]
 
 # ___pry_gems is for loading vendor plugins for Pry.
-___pry_gems = %w[awesome_print hirb sketches]
+___pry_gems = %w[awesome_print hirb sketches debugger]
 
 ___daily_gems.___require_gems
 ___pry_gems.___require_gems
