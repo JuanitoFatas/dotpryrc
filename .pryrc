@@ -32,7 +32,7 @@ end
 
 # https://github.com/pry/pry/wiki/FAQ#why-doesnt-pry-work-with-ruby-191
 if RUBY_VERSION == "1.9.1"
-  warn '1.9.1 has known issue with Pry. Please upgrade to 1.9.3-p448.'
+  warn '1.9.1 has known issue with Pry. Please upgrade to 1.9.3-p448 or Ruby 2.0+.'
 end
 
 ## Why is my emacs shell output showing odd characters?
@@ -45,7 +45,7 @@ end
 #  Vulnerability Reminder
 # ==============================
 
-if RUBY_REVISION < 41671
+if RUBY_REVISION < 41671 and RUBY_VERSION <= "2.0.0"
   print ___.colorize "YOUR RUBY #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} HAS A VULNERABILITY IN SSL CLIENT, PLEASE CONSIDER UPGRADE TO LATEST VERSION. ", 31
   print ___.colorize "MORE INFORMATION: http://goo.gl/dAfuH\n", 31
 end
