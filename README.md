@@ -27,7 +27,9 @@ Pry startup file, more information [The .pryrc file](https://github.com/pry/pry/
 
 __Make sure backup your own `.pryrc` first!!!__
 
-Download the [zip](https://github.com/JuanitoFatas/dotpryrc/archive/master.zip) then put these two files to your home directory.
+Download the [zip](https://github.com/JuanitoFatas/dotpryrc/archive/master.zip) then put these two files (`.pryrc` and `.pryrc-helpers.rb`) to your home directory.
+
+If you see `Missing ... goodies.` You could install these missing gems via `gem install`.
 
 ## Contribute
 
