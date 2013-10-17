@@ -11,10 +11,10 @@ require '~/.pryrc-helpers'
 ___ = PryrcHelpers
 
 # what are the gems you use daily in REPL? Put them in ___daily_gems
-___daily_gems  = %w[benchmark]
+___daily_gems  = %w[benchmark yaml json sqlite3]
 
 # ___pry_gems is for loading vendor plugins for Pry.
-___pry_gems = %w[awesome_print hirb sketches debugger]
+___pry_gems = %w[awesome_print hirb sketches debugger pry-debugger pry-stack_explorer]
 
 ___daily_gems.___require_gems
 ___pry_gems.___require_gems
