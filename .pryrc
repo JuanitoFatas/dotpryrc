@@ -45,9 +45,9 @@ end
 #  Vulnerability Reminder
 # ==============================
 
-if RUBY_REVISION < 41671 and RUBY_VERSION <= "2.0.0"
-  print ___.colorize "YOUR RUBY #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} HAS A VULNERABILITY IN SSL CLIENT, PLEASE CONSIDER UPGRADE TO LATEST VERSION. ", 31
-  print ___.colorize "MORE INFORMATION: http://goo.gl/dAfuH\n", 31
+if RUBY_REVISION < 43780
+  print ___.colorize "YOUR RUBY #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} HAS VULNERABILITIES, PLEASE CONSIDER UPGRADE TO LATEST VERSION. ", 31
+  print ___.colorize "MORE INFORMATION: http://goo.gl/mmcAQz\n", 31
 end
 
 # ==============================
